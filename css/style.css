@@ -105,8 +105,8 @@ button:hover {
   .flex-container {
     display: flex;
     flex-direction: row;
-    background-color: #5AA07E;
-    margin-bottom: 30px;
+    background-color: #89c7ad;
+       margin-bottom: 30px;
     padding: 20px;
   }
    .flex-container > div {
@@ -121,7 +121,7 @@ button:hover {
     height: auto;
   }
 
-/*my work page*/
+/*my work page* aka index*/
 * {
   box-sizing: border-box;
 } 
@@ -202,8 +202,11 @@ button:hover {
   .viewmore {
     margin: 5%;
     text-align: center;
+
+  }
+  .projectlink {
+    color: #1c6240;
     text-decoration: none;
-    color: black;
   }
 
 footer {
@@ -234,16 +237,23 @@ footer {
 }
 .active {
   color: #373738;
-}
-
-.copyright {
-  font-size: small;
-  text-align: center;
+  text-decoration: none;
 }
 
 a:hover {
   background-color: transparent;
   text-decoration: underline;
+}
+
+.copyright {
+  font-size: small;
+  text-align: center;
+  color: #373738;
+}
+.flex-container > div {
+  background-color:#FDF5E1;
+  width: 95%;
+  align-items: center;
 }
 
 @media screen and (max-width: 1000px) {
@@ -259,9 +269,4 @@ a:hover {
       width: 100%;
       background-color: #5AA07E;
     }
-  }
-  .flex-container > div {
-    background-color:#FDF5E1;
-    width: 95%;
-    align-items: center;
   }
