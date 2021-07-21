@@ -249,16 +249,7 @@ a.active {
   font-size: small;
   text-align: center;
 }
-a:link {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
-}
-a:visited {
-  color: #373738;
-  background-color: transparent;
-  text-decoration: none;
-}
+
 a:hover {
   background-color: transparent;
   text-decoration: underline;
