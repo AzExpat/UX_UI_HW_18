@@ -238,13 +238,7 @@ footer {
   text-decoration: none;
   text-align: center;
 }
-a.active {
-  color: white;
-  text-decoration: none;
-}
-.active {
-  color: white;
-}
+
 .copyright {
   font-size: small;
   text-align: center;
